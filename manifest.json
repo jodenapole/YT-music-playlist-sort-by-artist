@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Music Playlist Sorter",
+  "version": "1.0",
+  "description": "Ordena playlists do YouTube Music por artista",
+  "permissions": [],
+  "host_permissions": [
+    "https://music.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js"],
+      "matches": ["https://music.youtube.com/*"]
+    }
+  ]
+}
