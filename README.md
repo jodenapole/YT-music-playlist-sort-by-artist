@@ -17,7 +17,7 @@
 
 ## Usage
 1. Open any playlist on YouTube Music
-2. Click the red "Ordenar Playlist por Artista" button
+2. Click the red "Order Playlist by Artist" button
 3. Confirm and watch your playlist organize itself!
 
 ## ⚠️ Disclaimer
